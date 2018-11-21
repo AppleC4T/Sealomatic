@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>		
+        <title>Seal-o-matic!</title>
+        <meta charset="UTF-8" />					
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Seal-related video finder!" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		        <link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="img/seals.svg" type="image/x-icon" />
+    </head>
+<body>
+        <header>
+            <h1 class="w100 text-center"><strong>Seal-o-matic</strong></h1>
+        </header>
+<div class="container">
+		<p id="p1">Welcome to the <b> Seal-o-matic! </b> Click the seal to make <b> Seal-o-matic </b> find you a random seal video from YouTube. Enjoy!</p>
+			<p id="dc"><b>Disclaimer:</b> The site works by searching YouTube for videos matching the query <i>seal</i> and selecting a random one. Although I did add some filters to the searching algorithm I do not take responsibility for any inappropriate content found by the site.</p>
+		<p id="status">YouTube API - ❌ | Seal overload - ❌ | Seal-o-matic ready to work - ❌</p>
+		<p>if the video doesn't load (the video can't be reached from the API) just click the seal again!</p>
+        <div class="row-lg-6">	
+            <div class="col-lg-6 col-lg-offset-3">
+				<div align="center">
+					<br>
+					<div class="col-md-12">
+					<img src="img/sealbutt.png" alt="seal-button" height="200" id="seals">
+					</div>
+					<br>
+					<br>
+					<br>
+                <div id="resultf"></div>
+				</div>	
+            </div>
+        </div>
+        </div>
+	<div class="footer">
+		<p>Seal-o-matic © Hubert Zimny (AppleCat) <a href="https://github.com/AppleC4T" target="_blank">GitHub</a></p>
+	</div>
+<!-- scripts -->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
+</html>
+
